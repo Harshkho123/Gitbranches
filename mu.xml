@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScInput xmlns="SwitchControl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="SwitchControl ScInput.xsd">
+  <Order type="interactive" count="1">
+    <ProvisioningRequest>
+      <Header>
+        <marketCode>DLS</marketCode>
+        <timeStamp>2021-07-13T01:00:19</timeStamp>
+        <effDateTime>2021-07-13T01:00:19</effDateTime>
+        <srvTrxType>ACT</srvTrxType>
+        <trxSource>CSM</trxSource>
+        <userId>30217</userId>
+        <subscriberNo>9404431366</subscriberNo>
+        <nbiInd>N</nbiInd>
+      </Header>
+      <SubscriberData state="new">
+        <subscriberNo>9404431366</subscriberNo>
+        <SubscriberGeneralStr FldSource="F">FTRCD=VCTS@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=VM@VMCOS=F800@GVMCOS=F800@VVMCOS=248@USER-NAME=TEST EMERALD@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=CFC@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=CFI@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=HOLD@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=CLI@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=CW@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=MPTY@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=MWI@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=NAT@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=ISP@APN=02@APN_NAME=wap.cingular@NOWAP=Y@OCS=Y@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=SMS@OCOS20=Y@TCOS20=Y@USER-NAME=TEST EMERALD@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=SMS@COS=ALP@GCOS=ALP@USER-NAME=TEST EMERALD@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=ISP@APN=IMS@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">FTRCD=VOLTE@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">GENSCCD=OAA@SUBMKT=GAI@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="F">GENSCCD=OAA@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="G">customer_id=177062597430@product_type=G@billing_market=DLS@ixc_code=5475@dealer_code=FCCNT@subscriber_type=R@nl=FCCNT@ban=177062597430@customer_type=I@sim=89014104279999999999@imsi=202108250722220@ported_ind=RE@sub_market_code=GAI@imei=352025061500000@stk_capable=1@first_name=TEST@last_business_name=EMERALD@private_id=202108250722220*ims.cingularme.com@public_id=9404431366*one.att.net@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="G">public_id_2=202108250722220*one.att.net@mnet_subid=T_DLS_GAI_1629901348000133650530@nset_dvc_cap=4@lte_sub_ind=Y@lte_type=7@imei_type=J6@ip_ver_cap=4@default_apn=IMS@cycle_code=18@cycle_close_day=12@logical_switch=DUM@logical_vm_id=DAP3@lrn=9406349999@time_zone_code=06@daylight_saving_ind=Y@sid=30036@hlr_pool_id=TEX@logical_epc_hss=HC1@logical_ims_hss=IH2@logical_alu_cts=SC01@</SubscriberGeneralStr>
+        <SubscriberGeneralStr FldSource="G">logical_ims_cpm=CPM2@lata=552@mta=7@</SubscriberGeneralStr>
+      </SubscriberData>
+      <SubscriberData state="current">
+        <subscriberNo>9404431366</subscriberNo>
+        <SubscriberGeneralStr FldSource="G">product_type=G@</SubscriberGeneralStr>
+      </SubscriberData>
+    </ProvisioningRequest>
+  </Order>
+</ScInput>
+
